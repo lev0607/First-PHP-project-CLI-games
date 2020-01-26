@@ -1,0 +1,11 @@
+{
+	"bin": ["bin/brain-games"],
+    "name": "lev/php-project-lvl1",
+    "authors": [
+        {
+            "name": "lev0607",
+            "email": "lev36rus@gmail.com"
+        }
+    ],
+    "require": {}
+}
