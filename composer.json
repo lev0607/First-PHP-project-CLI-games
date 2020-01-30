@@ -1,5 +1,5 @@
 {
-	"bin": ["src/bin/brain-even", "src/bin/brain-calc", "src/bin/brain-gcd"],
+	"bin": ["src/bin/brain-even", "src/bin/brain-calc", "src/bin/brain-gcd", "src/bin/brain-progression"],
     "name": "lev/php-project-lvl1",
     "authors": [
         {
@@ -13,7 +13,8 @@
             "src/Kernel.php",
             "src/games/Even.php",
             "src/games/Calc.php",
-            "src/games/GCD.php"
+            "src/games/GCD.php",
+            "src/games/Progression.php"
 
         ]
     },
