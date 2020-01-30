@@ -7,10 +7,13 @@
             "email": "lev36rus@gmail.com"
         }
     ],
+    "license": "MIT",
     "autoload": {
         "files": [
-            "src/Cli.php",
-            "src/Even.php"
+            "src/Kernel.php",
+            "src/games/Even.php",
+            "src/games/Calc.php"
+
         ]
     },
     "require": {

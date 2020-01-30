@@ -6,5 +6,8 @@
 
 ### Install
 
-1. clone repository
-1. `make install`
+1. `composer global require lev/php-project-lvl1:dev-master`
+
+### Run
+
+1. `brain-even`
