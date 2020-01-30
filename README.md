@@ -10,6 +10,12 @@
 
 [![asciicast](https://asciinema.org/a/fw7afV21ceoMcOghU7uFLszCq.svg)](https://asciinema.org/a/fw7afV21ceoMcOghU7uFLszCq)
 
-### Run
+### Run game
 
 1. `brain-even`
+
+[![asciicast](https://asciinema.org/a/N87WNLC6SxovldGHAzQavSB5q.svg)](https://asciinema.org/a/N87WNLC6SxovldGHAzQavSB5q)
+
+2. `brain-calc`
+
+[![asciicast](https://asciinema.org/a/wM30WkVZTJmp1swSTcfSikmkU.svg)](https://asciinema.org/a/wM30WkVZTJmp1swSTcfSikmkU)
