@@ -6,7 +6,7 @@ use function BrainGames\Kernel\getCountRound;
 use function BrainGames\Kernel\getRandNumber;
 use function BrainGames\Kernel\kernel;
 
-const TASK_GAME = 'Find the greatest common divisor of given numbers.';
+const TASK_GAME = 'What number is missing in the progression?';
 
 function getArrProgression($startNumberProgression, $stepProgression, $longProgression)
 {
