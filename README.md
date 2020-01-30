@@ -8,6 +8,8 @@
 
 1. `composer global require lev/php-project-lvl1:dev-master`
 
+[![asciicast](https://asciinema.org/a/fw7afV21ceoMcOghU7uFLszCq.svg)](https://asciinema.org/a/fw7afV21ceoMcOghU7uFLszCq)
+
 ### Run
 
 1. `brain-even`

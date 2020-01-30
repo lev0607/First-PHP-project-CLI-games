@@ -1,5 +1,5 @@
 {
-	"bin": ["src/bin/brain-even"],
+	"bin": ["src/bin/brain-even", "src/bin/brain-calc"],
     "name": "lev/php-project-lvl1",
     "authors": [
         {
