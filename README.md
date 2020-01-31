@@ -20,6 +20,14 @@
 
 [![asciicast](https://asciinema.org/a/wM30WkVZTJmp1swSTcfSikmkU.svg)](https://asciinema.org/a/wM30WkVZTJmp1swSTcfSikmkU)
 
-3. `brain-progression`
+3. `brain-gcd`
 
-[![asciicast](https://asciinema.org/a/LasMmeCclj3IKEbcPdYzAuZmK.svg)](https://asciinema.org/a/LasMmeCclj3IKEbcPdYzAuZmK)
+[![asciicast](https://asciinema.org/a/XSBijL3kl8DbLOLlBk3hlb0wQ.svg)](https://asciinema.org/a/XSBijL3kl8DbLOLlBk3hlb0wQ)
+
+4. `brain-progression`
+
+[![asciicast](https://asciinema.org/a/K51cosFa2okZMgOYD73EVrXkW.svg)](https://asciinema.org/a/K51cosFa2okZMgOYD73EVrXkW)
+
+5. `brain-prime`
+
+[![asciicast](https://asciinema.org/a/VSW7JHWQBTPXk9tXe7kdBbTbw.svg)](https://asciinema.org/a/VSW7JHWQBTPXk9tXe7kdBbTbw)

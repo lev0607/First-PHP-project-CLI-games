@@ -7,7 +7,7 @@ use function cli\prompt;
 
 const COUNT_ROUND_GAME = 3;
 const RANGE_MIN = 1;
-const RANGE_MAX = 100;
+const RANGE_MAX = 3;
 
 
 function getCountRound()
