@@ -1,13 +1,24 @@
 {
-	"bin": ["src/bin/brain-even", "src/bin/brain-calc", "src/bin/brain-gcd", "src/bin/brain-progression", "src/bin/brain-prime"],
     "name": "lev/php-project-lvl1",
+	"bin": [
+        "src/bin/brain-even",
+        "src/bin/brain-calc",
+        "src/bin/brain-gcd",
+        "src/bin/brain-progression",
+        "src/bin/brain-prime"
+    ],
+    "type": "project",
     "authors": [
         {
             "name": "lev0607",
             "email": "lev36rus@gmail.com"
         }
     ],
+    "description": "First php project on hexlet.io. Five mini games for CLI",
     "license": "MIT",
+    "scripts": {
+    "phpcs": "phpcs"
+    },
     "autoload": {
         "files": [
             "src/Kernel.php",
@@ -24,8 +35,6 @@
 	},
 	"require-dev": {
 		"squizlabs/php_codesniffer": "^3.5"
-	},
-    "scripts": {
-    "phpcs": "phpcs"
-    }
+	}
+
 }

@@ -1,10 +1,9 @@
 <?php
 
-namespace BrainGames\Prime;
+namespace BrainGames\games\Prime;
 
-use function BrainGames\Kernel\getCountRound;
 use function BrainGames\Kernel\getRandNumber;
-use function BrainGames\Kernel\kernel;
+use function BrainGames\Kernel\runKernel;
 
 const TASK_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -34,5 +33,5 @@ function startGame()
         return $data;
     };
 
-    kernel($getDataGame, TASK_GAME);
+    runKernel($getDataGame, TASK_GAME);
 }

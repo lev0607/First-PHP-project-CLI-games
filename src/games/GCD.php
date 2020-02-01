@@ -1,14 +1,15 @@
 <?php
 
-namespace BrainGames\GCD;
+namespace BrainGames\games\GCD;
 
-use function BrainGames\Kernel\getCountRound;
 use function BrainGames\Kernel\getRandNumber;
-use function BrainGames\Kernel\kernel;
+use function BrainGames\Kernel\runKernel;
 
 const TASK_GAME = 'Find the greatest common divisor of given numbers.';
 
-function gcd($randNumber1, $randNumber2)
+// Gcd - greatest common divisor
+
+function isGcd($randNumber1, $randNumber2)
 {
     $correctAnswer = 0;
     $randNumber1 = abs($randNumber1);
@@ -31,9 +32,9 @@ function startGame()
         $randNumber1 = getRandNumber();
         $randNumber2 = getRandNumber();
         $data['question'] = "{$randNumber1} {$randNumber2}";
-        $data['correctAnswer'] = gcd($randNumber1, $randNumber2);
+        $data['correctAnswer'] = isGcd($randNumber1, $randNumber2);
         return $data;
     };
 
-    kernel($getDataGame, TASK_GAME);
+    runKernel($getDataGame, TASK_GAME);
 }

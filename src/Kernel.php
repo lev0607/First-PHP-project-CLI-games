@@ -7,13 +7,7 @@ use function cli\prompt;
 
 const COUNT_ROUND_GAME = 3;
 const RANGE_MIN = 1;
-const RANGE_MAX = 3;
-
-
-function getCountRound()
-{
-    return COUNT_ROUND_GAME;
-}
+const RANGE_MAX = 100;
 
 function getRandNumber()
 {
@@ -21,7 +15,7 @@ function getRandNumber()
 }
 
 
-function kernel($getDataGame, $taskGame)
+function runKernel($getDataGame, $taskGame)
 {
     line('Welcome to the Brain Game!');
     line($taskGame);
@@ -29,7 +23,7 @@ function kernel($getDataGame, $taskGame)
     $userName = prompt('May I have your name?');
     line("Hello, %s!", $userName);
     line();
-    $countRound = getCountRound();
+    $countRound = COUNT_ROUND_GAME;
 
     while ($countRound) {
         $data = $getDataGame();

@@ -1,10 +1,9 @@
 <?php
 
-namespace BrainGames\Calc;
+namespace BrainGames\games\Calc;
 
-use function BrainGames\Kernel\getCountRound;
 use function BrainGames\Kernel\getRandNumber;
-use function BrainGames\Kernel\kernel;
+use function BrainGames\Kernel\runKernel;
 
 const TASK_GAME = 'What is the result of the expression?';
 
@@ -32,5 +31,5 @@ function startGame()
         return $data;
     };
 
-    kernel($getDataGame, TASK_GAME);
+    runKernel($getDataGame, TASK_GAME);
 }

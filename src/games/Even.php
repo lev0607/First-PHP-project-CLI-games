@@ -1,10 +1,9 @@
 <?php
 
-namespace BrainGames\Even;
+namespace BrainGames\games\Even;
 
-use function BrainGames\Kernel\getCountRound;
 use function BrainGames\Kernel\getRandNumber;
-use function BrainGames\Kernel\kernel;
+use function BrainGames\Kernel\runKernel;
 
 const TASK_GAME = 'Answer "yes" if the number is even, otherwise answer "no"';
 
@@ -18,5 +17,5 @@ function startGame()
         return $data;
     };
 
-    kernel($getDataGame, TASK_GAME);
+    runKernel($getDataGame, TASK_GAME);
 }

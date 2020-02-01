@@ -1,10 +1,9 @@
 <?php
 
-namespace BrainGames\Progression;
+namespace BrainGames\games\Progression;
 
-use function BrainGames\Kernel\getCountRound;
 use function BrainGames\Kernel\getRandNumber;
-use function BrainGames\Kernel\kernel;
+use function BrainGames\Kernel\runKernel;
 
 const TASK_GAME = 'What number is missing in the progression?';
 
@@ -34,5 +33,5 @@ function startGame()
         return $data;
     };
 
-    kernel($getDataGame, TASK_GAME);
+    runKernel($getDataGame, TASK_GAME);
 }
