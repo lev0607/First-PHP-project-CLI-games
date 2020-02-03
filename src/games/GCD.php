@@ -9,7 +9,7 @@ const TASK_GAME = 'Find the greatest common divisor of given numbers.';
 
 // Gcd - greatest common divisor
 
-function isGcd($randNumber1, $randNumber2)
+function findGcd($randNumber1, $randNumber2)
 {
     $correctAnswer = 0;
     $randNumber1 = abs($randNumber1);
@@ -32,7 +32,7 @@ function startGame()
         $randNumber1 = getRandNumber();
         $randNumber2 = getRandNumber();
         $data['question'] = "{$randNumber1} {$randNumber2}";
-        $data['correctAnswer'] = isGcd($randNumber1, $randNumber2);
+        $data['correctAnswer'] = findGcd($randNumber1, $randNumber2);
         return $data;
     };
 

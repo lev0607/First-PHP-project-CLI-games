@@ -7,7 +7,7 @@ use function cli\prompt;
 
 const COUNT_ROUND_GAME = 3;
 const RANGE_MIN = 1;
-const RANGE_MAX = 100;
+const RANGE_MAX = 10;
 
 function getRandNumber()
 {
@@ -23,17 +23,14 @@ function runKernel($getDataGame, $taskGame)
     $userName = prompt('May I have your name?');
     line("Hello, %s!", $userName);
     line();
-    $countRound = COUNT_ROUND_GAME;
 
-    while ($countRound) {
+    for ($i = 0; $i < COUNT_ROUND_GAME; $i++) {
         $data = $getDataGame();
-        line("Question: {$data['question']}");
-        $answer = trim(fgets(STDIN));
+        $answer = prompt("Question: {$data['question']}");
         $correctAnswer = $data['correctAnswer'];
         line("Your answer: {$answer}");
         if ($answer == $correctAnswer) {
             line("Correct!");
-            $countRound--;
         } else {
             line("'{$answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.");
             line("Let's try again, {$userName}!");

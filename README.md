@@ -1,8 +1,7 @@
 # php-project-lvl1
 
 [![Build Status](https://travis-ci.org/lev0607/php-project-lvl1.svg?branch=master)](https://travis-ci.org/lev0607/php-project-lvl1)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Maintainability](https://codeclimate.com/github/lev0607/php-project-lvl1/badges/issue_count.svg)](https://codeclimate.com/github/lev0607/php-project-lvl1)
 
 ### Install all games
 

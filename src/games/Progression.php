@@ -7,10 +7,10 @@ use function BrainGames\Kernel\runKernel;
 
 const TASK_GAME = 'What number is missing in the progression?';
 
-function getArrProgression($progressionStartingNumber, $stepProgression, $longProgression)
+function getProgression($progressionStartingNumber, $stepProgression, $progressionLength)
 {
     $arrProgression = [$progressionStartingNumber];
-    for ($i = 1; $i <= $longProgression; $i++) {
+    for ($i = 1; $i <= $progressionLength; $i++) {
         $arrProgression[$i] = $arrProgression[$i - 1] + $stepProgression;
     }
 
@@ -21,10 +21,10 @@ function startGame()
 {
     $getDataGame = function () {
         $data = [];
-        $longProgression = 10;
+        $progressionLength = 10;
         $progressionStartingNumber = getRandNumber();
         $stepProgression = getRandNumber();
-        $arrProgression = getArrProgression($progressionStartingNumber, $stepProgression, $longProgression);
+        $arrProgression = getProgression($progressionStartingNumber, $stepProgression, $progressionLength);
         $randKey = array_rand($arrProgression, 1);
         $string = implode(' ', $arrProgression);
         $data['correctAnswer'] = $arrProgression[$randKey];

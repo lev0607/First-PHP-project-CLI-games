@@ -12,8 +12,7 @@ function isPrime($number)
     if ($number < 2) {
         return false;
     }
-    
-    for ($i = 2; $i < $number; $i++) {
+    for ($i = 2; $i <= $number / 2; $i++) {
         if ($number % $i === 0) {
             return false;
         }
@@ -26,9 +25,8 @@ function startGame()
 {
     $getDataGame = function () {
         $data = [];
-        $number = getRandNumber();
-        $data['correctAnswer'] = isPrime($number) ? 'yes' : 'no';
-        $data['question'] = $number;
+        $data['question'] = getRandNumber();
+        $data['correctAnswer'] = isPrime($data['question']) ? 'yes' : 'no';
 
         return $data;
     };
