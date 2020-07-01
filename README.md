@@ -1,5 +1,3 @@
-# php-project-lvl1
-
 [![Build Status](https://travis-ci.org/lev0607/php-project-lvl1.svg?branch=master)](https://travis-ci.org/lev0607/php-project-lvl1)
 [![Code Climate](https://codeclimate.com/github/lev0607/php-project-lvl1/badges/gpa.svg)](https://codeclimate.com/github/lev0607/php-project-lvl1)
 [![Issue Count](https://codeclimate.com/github/lev0607/php-project-lvl1/badges/issue_count.svg)](https://codeclimate.com/github/lev0607/php-project-lvl1)
@@ -12,8 +10,9 @@
 * Определение четного числа.
 * Определение наибольшего общего делителя.
 * Определение простого числа.
-Пример игры:
 
+Пример игры:
+```
 $ brain-progression
 Welcome to the Brain Game!
 What number is missing in this progression?
@@ -29,7 +28,7 @@ Question: 12 15 18 21 .. 27 30 33
 Your answer: 24 # Пользователь вводит ответ
 Correct!
 Congratulations, Roman!
-
+```
 ### Install all games
 
 1. `composer global require lev/php-project-lvl1:dev-master`
