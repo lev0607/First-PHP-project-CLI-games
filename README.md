@@ -4,6 +4,32 @@
 [![Code Climate](https://codeclimate.com/github/lev0607/php-project-lvl1/badges/gpa.svg)](https://codeclimate.com/github/lev0607/php-project-lvl1)
 [![Issue Count](https://codeclimate.com/github/lev0607/php-project-lvl1/badges/issue_count.svg)](https://codeclimate.com/github/lev0607/php-project-lvl1)
 
+#Первый учебный проект
+Набор из пяти консольных мини игр. Игра задает вопрос. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
+#### Игры:
+* Калькулятор. Поддерживает арифметические выражения ####.
+* Прогрессия. Поиск пропущенных чисел в последовательности чисел.
+* Определение четного числа.
+* Определение наибольшего общего делителя.
+* Определение простого числа.
+Пример игры:
+
+$ brain-progression
+Welcome to the Brain Game!
+What number is missing in this progression?
+May I have your name? Roman
+Hello, Roman!
+Question: 14 .. 18 20 22 24 26 28
+Your answer: 16 # Пользователь вводит ответ
+Correct!
+Question: 5 6 7 8 9 .. 11 12
+Your answer: 10 # Пользователь вводит ответ
+Correct!
+Question: 12 15 18 21 .. 27 30 33
+Your answer: 24 # Пользователь вводит ответ
+Correct!
+Congratulations, Roman!
+
 ### Install all games
 
 1. `composer global require lev/php-project-lvl1:dev-master`
