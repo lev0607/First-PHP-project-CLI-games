@@ -2,7 +2,7 @@
 [![Code Climate](https://codeclimate.com/github/lev0607/php-project-lvl1/badges/gpa.svg)](https://codeclimate.com/github/lev0607/php-project-lvl1)
 [![Issue Count](https://codeclimate.com/github/lev0607/php-project-lvl1/badges/issue_count.svg)](https://codeclimate.com/github/lev0607/php-project-lvl1)
 
-#Первый учебный проект
+# Первый учебный проект
 Набор из пяти консольных мини игр. Игра задает вопрос. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
 #### Игры:
 * Калькулятор. Поддерживает арифметические выражения ####.
